@@ -1,0 +1,5 @@
+---
+- hosts: freebsd 
+  tasks:
+      - name: poweroff 
+        command: /sbin/poweroff 
